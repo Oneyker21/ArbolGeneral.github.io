@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    padding: 20px 20px 20px 20px;
+    margin: 80px 200px 0px 200px;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    cursor: default;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    cursor: default;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    text-align: center;
+    width: 257px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    transition: .5s;
+    font-weight: bold;
+}
+
+textarea:focus {
+    width: 70%;
+    height: 40px;
+    background-color: #c8e1fd;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#resultados {
+    margin-top: 20px;
+}
+
+p#lci,
+p#lce,
+p#mlci,
+p#mlce {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
