@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/ideas.png" type="image/x-icon">
     <title>Calcular Árbol General</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -16,7 +17,7 @@
             <p>Ingrese el árbol y haga clic en "Calcular" para obtener los datos.</p>
         </div>
         <div class="textarea">
-            <textarea id="arbolInput" placeholder="Ejemplo de árbol: 1 [2 [4 5] 3 [6]]" rows="4" cols="50"></textarea>
+            <textarea id="arbolInput" placeholder="Ejemplo de árbol: 1 (2 (4 5) 3 (6))" rows="4" cols="50"></textarea>
         </div>
         <div class="botones">
             <button id="calcularButton">Calcular</button>
@@ -28,8 +29,8 @@
             <p id="mlci"></p>
             <p id="mlce"></p>
         </div>
+        <div id="treeGraph"></div>
     </div>
-    <script src="scripts.js"></script>
     <div class="informacion">
         <div class="giticon">
             <a href="https://github.com/Oneyker21" target="_blank">
@@ -44,6 +45,8 @@
             </a>
         </div>
     </div>
+    <script src="scripts.js"></script>
+    <script src="grafos.js"></script>
 </body>
 
 </html>
