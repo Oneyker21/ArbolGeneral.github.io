@@ -6,7 +6,6 @@ class TreeNode {
     }
 }
 
-
 // Función para analizar la cadena de entrada y construir un árbol
 function parseTree(input) {
     const stack = []; // Pila para llevar un seguimiento de los nodos
