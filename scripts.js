@@ -1,18 +1,3 @@
-
-
-
-
-/* 
-CHATGPT USADO PARA:
-                    CORRECCIONES DE CODIGO
-                    ORGANIZACION OPTIMA DEL CODIGO
-                    COMENTARIOS DE EXPLICACIONES 
- */
-
-
-
-
-
 // Definición de la clase TreeNode para representar nodos en un árbol
 class TreeNode {
     constructor(value) {
