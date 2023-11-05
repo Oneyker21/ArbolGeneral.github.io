@@ -139,3 +139,4 @@ document.getElementById('calcularButton').addEventListener('click', () => {
 document.getElementById('limpiarButton').addEventListener('click', () => {
     limpiarResultadosConAnimacion(); // Limpiamos los resultados con animación inversa
 });
+
